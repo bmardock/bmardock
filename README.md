@@ -1,4 +1,4 @@
-![rube](https://shopboardwalkvintage.com/readme/rube.php)
+![rube](https://shopboardwalkvintage.com/readme/rube.php?raw=true)
 
 TL;DR Work in Progress of helpful projects and playbooks.
 
