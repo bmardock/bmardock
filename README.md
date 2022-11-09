@@ -17,10 +17,10 @@ People:
 - Hiring
 
 R & D projects:
-- todo list
+- [todo list](https://github.com/bmardock/analog-todo)
 - nest cam web dashboard v2
 - realtime product inventory (websockets)
-- chrome extension
+- [chrome extension](https://github.com/bmardock/shop-helper-extension)
 
 <!---
 bmardock/bmardock is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
