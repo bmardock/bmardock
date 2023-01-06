@@ -19,5 +19,5 @@ People:
 R & D projects:
 - [todo list](https://github.com/bmardock/analog-todo)
 - nest cam web dashboard v2
-- realtime product inventory (websockets)
+- [realtime product inventory (websockets)](https://github.com/bmardock/real-time-processing)
 - [chrome extension](https://github.com/bmardock/shop-helper-extension)
