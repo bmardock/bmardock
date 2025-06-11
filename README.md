@@ -124,6 +124,4 @@ The goal isn’t to game stats; it’s to keep a constant feedback loop that hel
 
 #### Let’s Connect
 
-Love comparing playbooks and trading ideas. If any of these practices resonate (or you’d like to share your own), drop me a note or connect on LinkedIn:
-
-[brandon@yourdomain.com](mailto:brandon@yourdomain.com) • [LinkedIn](https://linkedin.com/in/brandonmardock)
+Love comparing playbooks and trading ideas. If any of these practices resonate (or you’d like to share your own), drop me a note or connect on [LinkedIn](https://linkedin.com/in/brandonmardock).
