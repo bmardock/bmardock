@@ -99,7 +99,7 @@ The goal isn’t to game stats; it’s to keep a constant feedback loop that hel
 - **Vision Casting & Roadmapping** ➔ `/playbooks/vision-roadmap-guide.md`  
 - **Sprint Planning & Retrospective** ➔ `/playbooks/sprint-planning-template.md`  
 - **Scorecard & Performance Metrics** ➔ `/playbooks/scorecard-guide.md`
-- **System Design** ➔ `/playbooks/system-design.md`  
+- **System Design** ➔ [/playbooks/system-design.md](/playbooks/system-design.md)
 
 ---
 
