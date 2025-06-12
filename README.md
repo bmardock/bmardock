@@ -1,6 +1,6 @@
 ![rube](https://shopboardwalkvintage.com/readme/rube.php?)
 
-`TL;DR Work in Progress`
+## Work-in-Progress Playbook for High-Impact Engineering Teams
 
 > Building teams that ship, learn, and delight users.
 
