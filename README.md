@@ -49,7 +49,7 @@ Stating this North‑Star sentence up front keeps us out of bikeshed debates, al
 
 6. **PR Preview Deploys** - Auto‑spin a review environment; reviewers click through while reading the diff.
 
-7. **PR Checklist via GitHub Actions** - Template requires author & reviewer to tick known gotchas before merge; list evolves with pattern analysis.
+7. **PR Checklist via GitHub PR Templates** - Template requires author & reviewer to tick known gotchas before merge; list evolves with pattern analysis.
 
 ---
 
