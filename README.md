@@ -100,6 +100,7 @@ The goal isn’t to game stats; it’s to keep a constant feedback loop that hel
 - **Sprint Planning & Retrospective** ➔ `/playbooks/sprint-planning-template.md`  
 - **Scorecard & Performance Metrics** ➔ `/playbooks/scorecard-guide.md`
 - **System Design** ➔ [/playbooks/system-design.md](/playbooks/system-design.md)
+- **VP Field Guide** ➔ [/playbooks/vp_readiness_field_guide.pdf](/playbooks/vp_readiness_field_guide.pdf)
 
 ---
 
