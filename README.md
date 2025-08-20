@@ -105,17 +105,19 @@ The goal isn’t to game stats; it’s to keep a constant feedback loop that hel
 ---
 
 ## R&D Projects
+1. [mgmt-boost](https://github.com/bmardock/mgmt-boost)  
+   _AI-powered Slack extension that boosts clarity, organizes notes, and tracks team pulse._
 
-1. [analog-todo](https://github.com/bmardock/analog-todo)  
+2. [analog-todo](https://github.com/bmardock/analog-todo)  
    _Lean, card-based “Today/Next/Someday” to-do app with IndexedDB._
 
-2. [dash-cam](https://github.com/bmardock/dash-cam)  
+3. [dash-cam](https://github.com/bmardock/dash-cam)  
    _Nest Cam Web Dashboard v2: real-time feeds, alerts, snapshots via WebSockets + React._
 
-3. [real-time-processing](https://github.com/bmardock/real-time-processing)  
+4. [real-time-processing](https://github.com/bmardock/real-time-processing)  
    _Live inventory updates across POS and e-comm using Socket.IO + MongoDB._
 
-4. [shop-helper-extension](https://github.com/bmardock/shop-helper-extension)  
+5. [shop-helper-extension](https://github.com/bmardock/shop-helper-extension)  
    _Chrome extension for injecting quick-access workflows into internal pages._
 
 *(More coming: AI-assisted tagging, AWS microservices, internal analytics dashboards.)*
