@@ -13,7 +13,7 @@ Those ingredients make collaboration feel natural. Titles blur. Hats overlap. Ev
 
 The manager’s role should be to protect that spark. To block and tackle against bureaucracy, keep the rhythm sustainable, and make sure curiosity lasts longer than one late-night push. When that happens, results follow: fewer dead ends, faster loops from idea to test to decision, and clearer trade-offs when choosing between speed and polish.  
 
-*Nostalgia for the garage is real, but the point isn’t to recreate the past. Tools and pressures will always change. What matters is carrying the spark forward — people leaning in, curious, and proud to put their best foot forward. Playbooks are touchstones that keep that spark alive as everything else evolves.*  
+*Nostalgia for the garage is real, but the point isn’t to recreate the past. Tools and pressures will always change. What matters is carrying the spark forward: people leaning in, curious, and proud to put their best foot forward. Playbooks are touchstones that keep that spark alive as everything else evolves.*  
 
 ---
 
@@ -24,14 +24,14 @@ Garage mode has a spark that feels almost magical, but it doesn’t have to be r
 - **Explore fast.** Whiteboard ideas, riff together, and see what sticks.  
 - **Pressure-test.** Run promising ideas through gaps and edge cases. Kill weak ones quickly, sharpen the strong ones.  
 - **Build together.** Break work down, unblock each other fast, and avoid grind-in-a-corner isolation.  
-- **Protect the rhythm.** No box-check meetings. No status theater. Use the scorecard to name trade-offs — sometimes speed, sometimes polish. Clear choices, no hidden compromises.  
+- **Protect the rhythm. No box-check meetings. No status theater. Use the scorecard to name trade-offs: sometimes speed, sometimes polish. Clear choices, no hidden compromises.
 
 When teams work this way, outcomes come naturally. At one company, this approach helped double online revenue by letting speed win in the right places. At another, it cut cloud costs by 80 percent by slowing down to fix what was breaking. These were not lucky breaks. They were deliberate trade-offs made visible and acted on.  
 
 ---
 
 ## Playbooks & Guides  
-The habits above are simple in spirit, but they work best when they’re easy to repeat. That’s why I’ve captured them as playbooks — not rigid rules, but lightweight touchstones that help teams keep the spark alive whether they’re three people in a room or hundreds spread across time zones.  
+The habits above are simple in spirit, but they work best when they’re easy to repeat. That’s why I’ve captured them as playbooks: not rigid rules, but lightweight touchstones that help teams keep the spark alive whether they’re three people in a room or hundreds spread across time zones.
 
 - **[Vision & Roadmaps](/playbooks/vision-roadmap-guide.md)** → anchoring on the problem and purpose.  
 - **[Engineering Pitfalls & Fixes](/playbooks/engineering-pitfalls.md)** → patterns that cause slowdowns, and how to avoid them.  
