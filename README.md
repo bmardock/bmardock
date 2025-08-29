@@ -24,7 +24,7 @@ Garage mode has a spark that feels almost magical, but it doesn’t have to be r
 - **Explore fast.** Whiteboard ideas, riff together, and see what sticks.  
 - **Pressure-test.** Run promising ideas through gaps and edge cases. Kill weak ones quickly, sharpen the strong ones.  
 - **Build together.** Break work down, unblock each other fast, and avoid grind-in-a-corner isolation.  
-- **Protect the rhythm. No box-check meetings. No status theater. Use the scorecard to name trade-offs: sometimes speed, sometimes polish. Clear choices, no hidden compromises.
+- **Protect the rhythm.** No box-check meetings. No status theater. Use the scorecard to name trade-offs: sometimes speed, sometimes polish. Clear choices, no hidden compromises.
 
 When teams work this way, outcomes come naturally. At one company, this approach helped double online revenue by letting speed win in the right places. At another, it cut cloud costs by 80 percent by slowing down to fix what was breaking. These were not lucky breaks. They were deliberate trade-offs made visible and acted on.  
 
