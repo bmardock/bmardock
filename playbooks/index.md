@@ -19,17 +19,21 @@ Most team "best practices" are either fluffy inspiration with no teeth, or rigid
 ## The Journey: Building Teams That Ship
 
 ### **Start with Purpose**
+
 **[Vision & Roadmaps](./01-vision-roadmaps.md)** - Cut through feature requests to find the real customer problems worth solving. Turn vague ideas into compelling missions that energize the team.
 
-### **Build Your Foundation** 
+### **Build Your Foundation**
+
 **[Operating System](./03-operating-system.md)** - Create the scaffolding that lets teams move fast without chaos. Five pillars that keep everything in balance as you grow.
 
 **[Engineering Pitfalls & Fixes](./02-engineering-pitfalls.md)** - Spot the patterns that slow teams down and turn them into opportunities to level up your engineering practices.
 
 ### **Track What Matters**
+
 **[Scorecard System](./04-scorecard-system.md)** - Name your trade-offs, track real progress, and keep everyone aligned on what winning actually looks like.
 
 ### **Grow Your Team**
+
 **[Hiring](./05-hiring.md)** - Find people who are genuinely excited about your problems and can make everyone else better.
 
 **[Onboarding](./08-onboarding.md)** - Get new teammates contributing in days, not weeks, while they experience your culture through action.
@@ -37,6 +41,7 @@ Most team "best practices" are either fluffy inspiration with no teeth, or rigid
 **[1:1 Coaching](./06-1-1-coaching.md)** - Develop people using the CAMPs framework. Keep belonging and growth alive as the team scales.
 
 ### **Execute with Energy**
+
 **[Sprint Planning & Retros](./07-sprint-planning-retros.md)** - Turn planning meetings from homework into energizing sessions that build momentum and actually improve how you work.
 
 ---
@@ -65,4 +70,4 @@ These playbooks help you keep that energy alive while building the systems you n
 
 ---
 
-*Ready to build something amazing? Pick a playbook and start.*
+_Ready to build something amazing? Pick a playbook and start._
