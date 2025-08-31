@@ -21,7 +21,7 @@ Most teams burn time in planning meetings that feel like homework and retros tha
 
 ## Sprint Planning (90-120 minutes: decisions, not discussions)
 
-_First few sprints will take longer as team learns the process - that's normal_
+**Note:** First few sprints will take longer as team learns the process - that's normal
 
 ```mermaid
 flowchart LR
@@ -324,13 +324,13 @@ _Leave the room with energy, not just a task list._
 - **Knowledge sharing:** Fewer single points of failure on stories
 - **Delivery predictability:** Stakeholders can rely on sprint commitments
 
-_Track 2-3 metrics that matter most to your team's current pain points_
+**Note:** Track 2-3 metrics that matter most to your team's current pain points
 
 ## Templates & Tools
 
 **Sprint Planning Prep Checklist:**
 
-```
+```text
 Pre-planning (PM + Tech Lead, 30 minutes):
 - [ ] Stories have clear acceptance criteria
 - [ ] Designs are available and reviewed
@@ -342,7 +342,7 @@ Pre-planning (PM + Tech Lead, 30 minutes):
 
 **Story Readiness Check:**
 
-```
+```text
 - [ ] User story explains the "why" not just the "what"
 - [ ] Acceptance criteria are testable
 - [ ] Designs exist and are approved
@@ -353,7 +353,7 @@ Pre-planning (PM + Tech Lead, 30 minutes):
 
 **Sprint Commitment Template:**
 
-```
+```text
 Sprint Goal: [One sentence describing main outcome]
 
 Committed Stories:
@@ -372,7 +372,7 @@ Key Risks:
 
 **Experiment Discovery Framework:**
 
-```
+```text
 Problem: [What's frustrating us?]
 Root cause hypothesis: [Why do we think this happens?]
 Smallest test: [What's the minimal change to test our hypothesis?]
@@ -384,7 +384,7 @@ Owner: [Who's driving this?]
 
 **Retro Experiment Template:**
 
-```
+```text
 Experiment: [Specific change we'll try]
 Why: [Problem this addresses]
 How we'll know it worked: [Success criteria]
@@ -394,7 +394,7 @@ Owner: [Who's responsible]
 
 **Common Experiment Categories:**
 
-```
+```text
 COMMUNICATION
 - Meeting format changes (async, shorter, different cadence)
 - Documentation standards (templates, review processes)
