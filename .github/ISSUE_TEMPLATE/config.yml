@@ -1,0 +1,9 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💡 Suggest a new playbook
+    url: https://github.com/bmardock/bmardock/discussions
+    about: Got an idea for a new playbook or improvement to an existing one?
+  - name: 📚 General discussion
+    url: https://github.com/bmardock/bmardock/discussions  
+    about: Questions, feedback, or general discussion about the playbooks
+

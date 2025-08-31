@@ -1,5 +1,9 @@
 ![rube](https://shopboardwalkvintage.com/readme/rube.php?)
 
+[![Check links](https://github.com/bmardock/bmardock/actions/workflows/links.yml/badge.svg)](https://github.com/bmardock/bmardock/actions/workflows/links.yml)
+[![Lint Markdown](https://github.com/bmardock/bmardock/actions/workflows/markdown.yml/badge.svg)](https://github.com/bmardock/bmardock/actions/workflows/markdown.yml)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 ## ✨ The Spark of Great Teams
 The best teams I’ve been part of felt like a group of friends huddled in a garage, building something new.  
 Not polished. Not corporate. Just a whiteboard, a few laptops, and people tossing out ideas, sketching flows, laughing, and chasing that *“what if we tried this?”* spark.  
@@ -33,14 +37,14 @@ When teams work this way, outcomes come naturally. At one company, this approach
 ## Playbooks & Guides  
 The habits above are simple in spirit, but they work best when they’re easy to repeat. That’s why I’ve captured them as playbooks: not rigid rules, but lightweight touchstones that help teams keep the spark alive whether they’re three people in a room or hundreds spread across time zones.
 
-- **[Vision & Roadmaps](/playbooks/vision-roadmap-guide.md)** → anchoring on the problem and purpose.  
-- **[Engineering Pitfalls & Fixes](/playbooks/engineering-pitfalls.md)** → patterns that cause slowdowns, and how to avoid them.  
-- **[Operating System](/playbooks/operating-system.md)** → scaffolding that scales without micromanaging.  
-- **[Scorecard System](/playbooks/accountability-scorecard.md)** → where trade-offs get named, tracked, and balanced.  
-- **[Hiring Playbook](/playbooks/hiring-playbook.md)** → finding people who thrive in this environment.  
-- **[1:1 Coaching Framework](/playbooks/coaching-1on1-framework.md)** → keeping belonging and growth alive.  
-- **[Sprint Planning & Retros](/playbooks/sprint-planning-template.md)** → dividing and conquering without losing flow.  
-- **[Onboarding Playbook](/playbooks/onboarding-playbook.md)** → helping new teammates plug into the vibe fast.  
+- **[Vision & Roadmaps](/playbooks/01-vision-roadmaps.md)** → anchoring on the problem and purpose.  
+- **[Engineering Pitfalls & Fixes](/playbooks/02-engineering-pitfalls.md)** → patterns that cause slowdowns, and how to avoid them.  
+- **[Operating System](/playbooks/03-operating-system.md)** → scaffolding that scales without micromanaging.  
+- **[Scorecard System](/playbooks/04-scorecard-system.md)** → where trade-offs get named, tracked, and balanced.  
+- **[Hiring Playbook](/playbooks/05-hiring.md)** → finding people who thrive in this environment.  
+- **[1:1 Coaching Framework](/playbooks/06-1-1-coaching.md)** → keeping belonging and growth alive.  
+- **[Sprint Planning & Retros](/playbooks/07-sprint-planning-retros.md)** → dividing and conquering without losing flow.  
+- **[Onboarding Playbook](/playbooks/08-onboarding.md)** → helping new teammates plug into the vibe fast.  
 
 ---
 
