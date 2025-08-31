@@ -6,7 +6,7 @@
 
 ## Why These Playbooks Exist
 
-Most team "best practices" are either fluffy inspiration with no teeth, or rigid process that kills the energy that makes great teams great. These playbooks cut through both problems.
+Most team "best practices" are either fluffy inspiration with no teeth, or rigid process that kills the energy that makes great teams great. These playbooks aim to cut through both problems.
 
 **They're sharp** - call out the real problems, avoid the obvious traps, and focus on what actually moves the needle.
 
