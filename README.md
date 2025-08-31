@@ -2,9 +2,6 @@
 
 ![rube](https://shopboardwalkvintage.com/readme/rube.php?)
 
-[![Check links](https://github.com/bmardock/bmardock/actions/workflows/links.yml/badge.svg)](https://github.com/bmardock/bmardock/actions/workflows/links.yml)
-[![Lint Markdown](https://github.com/bmardock/bmardock/actions/workflows/markdown.yml/badge.svg)](https://github.com/bmardock/bmardock/actions/workflows/markdown.yml)
-
 ## ✨ The Spark of Great Teams
 
 The best teams I've been part of felt like a group of friends huddled in a garage, building something new.
@@ -73,3 +70,6 @@ I like comparing playbooks, swapping stories, and building alongside people who 
 
 - [LinkedIn](https://www.linkedin.com/in/brandonmardock/)
 - [GitHub](https://github.com/bmardock)
+
+[![Check links](https://github.com/bmardock/bmardock/actions/workflows/links.yml/badge.svg)](https://github.com/bmardock/bmardock/actions/workflows/links.yml)
+[![Lint Markdown](https://github.com/bmardock/bmardock/actions/workflows/markdown.yml/badge.svg)](https://github.com/bmardock/bmardock/actions/workflows/markdown.yml)
