@@ -4,7 +4,6 @@
 
 [![Check links](https://github.com/bmardock/bmardock/actions/workflows/links.yml/badge.svg)](https://github.com/bmardock/bmardock/actions/workflows/links.yml)
 [![Lint Markdown](https://github.com/bmardock/bmardock/actions/workflows/markdown.yml/badge.svg)](https://github.com/bmardock/bmardock/actions/workflows/markdown.yml)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## ✨ The Spark of Great Teams
 
