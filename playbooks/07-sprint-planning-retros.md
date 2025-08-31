@@ -9,6 +9,7 @@ Most teams burn time in planning meetings that feel like homework and retros tha
 ---
 
 ## Inputs (Come prepared or waste everyone's time)
+
 - **Prioritized backlog:** Stories actually ready for development (acceptance criteria, designs, dependencies clear)
 - **Real capacity:** Actual availability minus meetings, support, vacation, interviews
 - **Previous commitments:** Outstanding action items from last retro that actually matter
@@ -19,7 +20,8 @@ Most teams burn time in planning meetings that feel like homework and retros tha
 ---
 
 ## Sprint Planning (90-120 minutes: decisions, not discussions)
-*First few sprints will take longer as team learns the process - that's normal*
+
+_First few sprints will take longer as team learns the process - that's normal_
 
 ```mermaid
 flowchart LR
@@ -28,62 +30,74 @@ flowchart LR
     Stories --> Plan["4. Execution Plan<br/>(15m)"]
 ```
 
-*Goal: Leave with clear commitments everyone believes in, not a list of hopeful guesses.*
+_Goal: Leave with clear commitments everyone believes in, not a list of hopeful guesses._
 
 ### 1) Reality Check (15 minutes)
-*Ground yourself in what actually happened, then aim higher.*
+
+_Ground yourself in what actually happened, then aim higher._
 
 **Last sprint honesty:**
+
 - What % of committed work actually got done?
 - What killed our momentum? (meetings, scope creep, technical surprises)
 - Any carry-over work? Why didn't it finish?
 
 **Retro integration check:**
+
 - What experiment from last retro are we continuing/stopping?
 - What successful practices do we need to protect this sprint?
 - What early warning signs should we watch for based on last sprint's problems?
 
 **This sprint capacity:**
+
 - Who's actually available? (vacation, interviews, support rotation)
 - Any known interruptions or dependencies?
 - What's our realistic velocity based on recent sprints?
 
 ### 2) Sprint Focus (15 minutes)
-*One mission that gets everyone fired up.*
+
+_One mission that gets everyone fired up._
 
 **Sprint mission:** What customer problem are we crushing?
-- "We're fixing the checkout flow so customers don't abandon carts" 
+
+- "We're fixing the checkout flow so customers don't abandon carts"
 - "We're speeding up search so people find what they need"
 - NOT "We're doing tickets 123, 124, 125"
 
 **Victory looks like:** How will we know we're winning?
+
 - Customer behavior changes: "Cart abandonment drops 15%"
 - User feedback shifts: "Support tickets about search decrease"
 - Team energy: "We can demo this and feel proud of what we built"
 
-*If you can't connect the sprint to customer value, why are you building it?*
+_If you can't connect the sprint to customer value, why are you building it?_
 
 **When the work genuinely isn't customer-facing:**
+
 - "We're reducing tech debt so the team can move faster on customer features"
 - "We're improving monitoring so we catch customer issues before they do"
 - "We're updating dependencies so we don't have security vulnerabilities"
 - Be honest about maintenance work - it's necessary, just frame the business value
 
 ### 3) Story Selection (45 minutes)
-*Pick battles we can win and feel great about.*
+
+_Pick battles we can win and feel great about._
 
 **For each story, quick checks:**
+
 - **Ready?** Acceptance criteria clear, designs available, dependencies resolved
 - **Sized right?** Confident in estimate, or need to break it down further
 - **Testable?** Clear plan for verification
 - **Worth it?** Connects to sprint goal
 
 **Leadership moments:** When something's unclear, this is your chance to step up and drive clarity for the team.
+
 - Unclear requirements? Lead the charge - grab PM and customer data, facilitate the conversation
 - Missing designs? Rally the team to sketch solutions, bring in designer expertise, keep momentum
 - Technical unknowns? Own the research - spike it during planning or champion Day 1 investigation
 
 **Capacity reality check:**
+
 - Start with what you actually shipped last sprint (not what you hoped for)
 - Subtract 20% for the inevitable interruptions and surprises
 - Ask: "Would we bet $1000 we can finish this?" If no, cut scope
@@ -92,20 +106,24 @@ flowchart LR
 **Confidence test:** Everyone rates confidence 1-10. If average is below 7, cut work until it's 8+.
 
 **When you can't cut scope:**
+
 - Be honest about the risk and which stories might slip
 - Plan for mid-sprint adjustment conversations
 
 **Stop when:** The team genuinely believes they can deliver the sprint goal
 
 ### 4) Execution Plan (15 minutes)
-*Sequence work to avoid blocking.*
+
+_Sequence work to avoid blocking._
 
 **Story sequencing:**
+
 - Dependencies first (APIs before UIs, data before displays)
 - High-risk work early (so there's time to recover)
 - Pair/review needs identified upfront
 
 **Commitment check:**
+
 - Does everyone believe this is achievable?
 - Any concerns or missing pieces?
 - Who's accountable for each story?
@@ -121,50 +139,60 @@ flowchart LR
     Actions --> Close["4. Commit & Close<br/>(5m)"]
 ```
 
-*Goal: Walk away with experiments that will make your daily work more satisfying and effective.*
+_Goal: Walk away with experiments that will make your daily work more satisfying and effective._
 
 ### 1) What Happened (15 minutes)
-*Get the facts straight, then dig into what it felt like.*
+
+_Get the facts straight, then dig into what it felt like._
 
 **Sprint outcomes:**
+
 - Stories completed vs. committed
 - What got blocked, delayed, or cut?
 - Unexpected work that came up
 - Time spent on meetings, support, learning
 
 **Energy check:**
+
 - What felt smooth and energizing?
 - What felt frustrating or draining?
 - When did the team feel most/least effective?
 
-### 2) Why It Happened (20 minutes)  
-*Dig for root causes, not surface symptoms.*
+### 2) Why It Happened (20 minutes)
+
+_Dig for root causes, not surface symptoms._
 
 **Pattern hunting:**
+
 - **Keep doing:** What specific behaviors helped us succeed?
 - **Stop doing:** What consistently slowed us down?
 - **Start trying:** What could we experiment with?
 
 **Focus on systems, not people:**
+
 - Process gaps (unclear requirements, late design changes, handoff problems)
 - Technical friction (slow tests, deployment problems, tech debt slowing us down)
 - Communication breakdowns (missing context, late decisions, unclear priorities)
 - External blockers (waiting on other teams, tools, access, approvals)
 
 **Energy drains vs. energy sources:**
+
 - What made work feel like a slog vs. what made it feel engaging?
 - When did we feel most/least connected to customer impact?
 
 ### 3) What We'll Try (20 minutes)
-*Transform frustrations into experiments that could make work more enjoyable.*
+
+_Transform frustrations into experiments that could make work more enjoyable._
 
 **Identify experiment candidates (10 minutes):**
+
 - **For each major problem:** "What's the smallest change we could try to test if this helps?"
 - **For each success:** "How could we make this happen more consistently?"
 - **Team brainstorm:** What process tweaks have we been curious about?
 - **External inspiration:** What have other teams tried that might work here?
 
 **Examples of experiment types:**
+
 - **Communication:** Async standups, Slack threads vs meetings, documentation standards
 - **Focus:** No-meeting blocks, notification policies, deep work scheduling
 - **Planning:** Story sizing methods, definition of done changes, dependency tracking
@@ -172,72 +200,85 @@ flowchart LR
 - **Team dynamics:** Pair programming trials, cross-team collaboration, learning time
 
 **Choose 1-2 experiments max:**
+
 - **Specific change:** What exactly will we do differently?
 - **Success criteria:** How will we know if it worked?
 - **Owner:** Who's responsible for making it happen?
 - **Timeline:** When will we check if it's working?
 
 **Kill old experiments:**
+
 - Review previous retro action items
 - Keep what's working, stop what isn't
 - Don't accumulate endless improvement backlog
 
 **Experiments are internal problem-solving:**
+
 - Pick changes that solve actual team friction, not what sounds impressive
 - Failed experiments teach you what doesn't work - that's valuable data
 - Focus on process improvements that make your daily work smoother
 
 ### 4) Sprint Integration (10 minutes)
-*Bridge retro insights into next sprint execution.*
+
+_Bridge retro insights into next sprint execution._
 
 **Carry forward the wins:**
-- What specific practices made last sprint successful? 
+
+- What specific practices made last sprint successful?
 - How do we bake these into our next sprint rituals?
 - Who will champion these successful patterns?
 
 **Prevent the problems:**
+
 - What early warning signs should we watch for?
 - What guardrails can we put in place during planning?
 - How will we course-correct mid-sprint if we see the same issues?
 
 **Concrete commitments:**
+
 - Add retro experiment as a sprint backlog item with clear owner
 - Update team working agreements based on what we learned
 - Schedule mid-sprint check-in if experiment needs adjustment
 - Block calendar time for practices that worked well
 
 ### 5) Commit & Close (5 minutes)
-*End with energy and shared ownership.*
+
+_End with energy and shared ownership._
 
 **Motivation check:**
+
 - "What are you most excited to work on this sprint?" (If nothing, explore why)
-- "What will feel amazing to ship to customers?" 
+- "What will feel amazing to ship to customers?"
 - Call out specific wins and learning moments from last sprint
 
 **When energy is genuinely low:**
+
 - Acknowledge boring but necessary work honestly
-- Connect maintenance tasks to future capability  
+- Connect maintenance tasks to future capability
 - Focus on learning opportunities in unglamorous work
 - Don't force fake enthusiasm - authenticity builds trust
 
 **Team commitment:**
+
 - "Are we confident we can hit our sprint goal?"
 - Confirm experiment owners and check-in dates
 - "What success will we celebrate in two weeks?"
 
-*Leave the room with energy, not just a task list.*
+_Leave the room with energy, not just a task list._
 
 **The best retros change how the next sprint actually runs, not just how we feel about the last one.**
 
 ## Sprint Cadence Templates
 
 **2-Week Sprint Schedule:**
+
 - **Monday Week 1:** Sprint Planning
 - **Friday Week 1:** Mid-sprint check-in (informal)
 - **Thursday Week 2:** Sprint Review/Demo
 - **Friday Week 2:** Retrospective + next sprint prep
 
 **1-Week Sprint Schedule:**
+
 - **Monday:** Sprint Planning (45 minutes)
 - **Wednesday:** Mid-week sync (15 minutes)
 - **Friday:** Review + Retro (45 minutes)
@@ -247,44 +288,48 @@ flowchart LR
 ## Avoid These Traps (Keep rituals useful, not wasteful)
 
 **Planning pitfalls:**
+
 - **Estimation theater:** Spending hours debating 1 vs. 2 vs. 3 points instead of focusing on what's ready
-- **Over-commitment syndrome:** Taking on too much, then cutting scope mid-sprint  
+- **Over-commitment syndrome:** Taking on too much, then cutting scope mid-sprint
 - **Feature factory planning:** No capacity for tech debt, refactoring, or learning
 - **Unprepared planning:** Reviewing unclear stories for the first time in the meeting
 
 **Retro pitfalls:**
+
 - **Blame-focused discussions:** "Who messed up" instead of "what can we improve"
 - **Action item accumulation:** Starting new experiments before finishing previous ones
 - **Complaint sessions:** Identifying problems but never trying solutions
 - **Same problems, different sprint:** Talking about the same issues without changing anything
 
-
-
 ## Health Check (Track these to know it's working)
 
 **Planning gets better over time:**
+
 - **Commitment accuracy:** % of committed work actually completed (track monthly trend)
 - **Planning time:** Meeting duration decreases as team gets better at it
 - **Rework rate:** Stories that need significant changes after planning (should decrease)
 - **Confidence calibration:** How often team confidence matches actual delivery
 
 **Retros drive real change:**
+
 - **Experiment follow-through:** % of experiments actually tried for full timeline
 - **Problem elimination:** Issues that stop recurring after experiments
 - **Process evolution:** Concrete changes to how team works (visible, measurable)
 - **Cycle time improvement:** Measurable reduction in story completion time
 
 **Team effectiveness improves:**
+
 - **Flow efficiency:** % of time stories are actively worked vs. waiting
 - **Context switching:** Reduction in mid-sprint scope changes
 - **Knowledge sharing:** Fewer single points of failure on stories
 - **Delivery predictability:** Stakeholders can rely on sprint commitments
 
-*Track 2-3 metrics that matter most to your team's current pain points*
+_Track 2-3 metrics that matter most to your team's current pain points_
 
 ## Templates & Tools
 
 **Sprint Planning Prep Checklist:**
+
 ```
 Pre-planning (PM + Tech Lead, 30 minutes):
 - [ ] Stories have clear acceptance criteria
@@ -296,6 +341,7 @@ Pre-planning (PM + Tech Lead, 30 minutes):
 ```
 
 **Story Readiness Check:**
+
 ```
 - [ ] User story explains the "why" not just the "what"
 - [ ] Acceptance criteria are testable
@@ -306,6 +352,7 @@ Pre-planning (PM + Tech Lead, 30 minutes):
 ```
 
 **Sprint Commitment Template:**
+
 ```
 Sprint Goal: [One sentence describing main outcome]
 
@@ -324,6 +371,7 @@ Key Risks:
 ```
 
 **Experiment Discovery Framework:**
+
 ```
 Problem: [What's frustrating us?]
 Root cause hypothesis: [Why do we think this happens?]
@@ -335,6 +383,7 @@ Owner: [Who's driving this?]
 ```
 
 **Retro Experiment Template:**
+
 ```
 Experiment: [Specific change we'll try]
 Why: [Problem this addresses]
@@ -344,6 +393,7 @@ Owner: [Who's responsible]
 ```
 
 **Common Experiment Categories:**
+
 ```
 COMMUNICATION
 - Meeting format changes (async, shorter, different cadence)
@@ -376,6 +426,7 @@ TEAM DYNAMICS
 ## Garage Mode Checklist (Keep the energy alive)
 
 **Planning energy check:**
+
 - [ ] Everyone can explain the sprint goal in one sentence
 - [ ] Team is genuinely excited about at least one thing they're building
 - [ ] Sprint connects to real customer problems, not just internal requests
@@ -383,6 +434,7 @@ TEAM DYNAMICS
 - [ ] No one feels overwhelmed or set up to fail
 
 **Retro energy check:**
+
 - [ ] We're talking about solutions, not just complaints
 - [ ] Team feels empowered to change things that frustrate them
 - [ ] We're celebrating progress and learning, not just finding problems
@@ -390,6 +442,7 @@ TEAM DYNAMICS
 - [ ] People leave feeling energized about next sprint
 
 **Leadership growth opportunities:**
+
 - Transform feature lists into compelling customer missions that energize the team
 - Help the team find excitement and ownership in their work commitments
 - Turn complaints into constructive problem-solving sessions that build team confidence
@@ -398,22 +451,25 @@ TEAM DYNAMICS
 - Expand your impact beyond your role boundaries to help the team succeed
 
 **Growth mindset in action:**
+
 - "That's unclear" becomes "This is my chance to drive clarity for everyone"
 - "I need clearer requirements" becomes "I can lead the conversation to nail this down"
 - "That's not in my role" becomes "What expertise can I contribute to help us ship?"
 - Every problem is a chance to demonstrate leadership and grow the team's capabilities
 
 **Smart collaboration (not hero mode):**
+
 - When stepping outside your role, communicate with your manager about the extra capacity
 - Make cross-functional help visible so it gets recognized and doesn't create burnout
 - Focus on unblocking the team, not taking on everyone else's full workload
 - Time-box extra efforts - contribute expertise without becoming the permanent owner
 
-*Remember: The best sprints feel like a team choosing to build something meaningful together. Everyone leaves energized about what they're creating and confident they can deliver it.*
+_Remember: The best sprints feel like a team choosing to build something meaningful together. Everyone leaves energized about what they're creating and confident they can deliver it._
 
 ---
 
 ## References
+
 - [Scrum Guide](https://scrumguides.org/scrum-guide.html)
 - [Spotify agile model](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf)
-- [Retrospective exercises](https://retromat.org/)
+- [Retrospective exercises](https://www.atlassian.com/team-playbook/plays/retrospective)
