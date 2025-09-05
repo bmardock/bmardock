@@ -1,7 +1,7 @@
 
 # Team Management Playbooks
 
-![rube](https://shopboardwalkvintage.com/readme/rube.php?)
+![rube](assets/rube2.jpeg)
 
 ## ✨ The Spark of Great Teams
 
