@@ -16,7 +16,7 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2.0.2
         with:
-          args: --verbose --no-progress --exclude-mail --exclude-url "linkedin.com" --timeout 20 --exclude-path ./node_modules --exclude-path ./.git .
+          args: --verbose --no-progress --exclude-mail --exclude-url "linkedin.com" --exclude-url "amazon.com" --timeout 20 --exclude-path ./node_modules --exclude-path ./.git .
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
