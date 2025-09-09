@@ -70,6 +70,3 @@ Each project starts with a "what if" and ends with something learned. Sometimes 
 I like comparing playbooks, swapping stories, and building alongside people who care about solving the right problems. If any of this resonates, I'd love to connect.
 
 - [LinkedIn](https://www.linkedin.com/in/brandonmardock/)
-
-[![Check links](https://github.com/bmardock/bmardock/actions/workflows/links.yml/badge.svg)](https://github.com/bmardock/bmardock/actions/workflows/links.yml)
-[![Lint Markdown](https://github.com/bmardock/bmardock/actions/workflows/markdown.yml/badge.svg)](https://github.com/bmardock/bmardock/actions/workflows/markdown.yml)
