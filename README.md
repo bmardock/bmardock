@@ -1,4 +1,3 @@
-
 # Team Management Playbooks
 
 ![rube](assets/rube2.jpeg)
@@ -48,7 +47,7 @@ The habits above are simple in spirit, but they work best when they're easy to r
 - **[1:1 Coaching Framework](/playbooks/06-1-1-coaching.md)** → keeping belonging and growth alive.
 - **[Sprint Planning & Retros](/playbooks/07-sprint-planning-retros.md)** → dividing and conquering without losing flow.
 - **[Onboarding Playbook](/playbooks/08-onboarding.md)** → helping new teammates plug into the vibe fast.
- - **[Strategy](/playbooks/09-strategy.md)** → one-line strategy with explicit tradeoffs that guide decisions.
+- **[Strategy](/playbooks/09-strategy.md)** → one-line strategy with explicit tradeoffs that guide decisions.
 
 ---
 
