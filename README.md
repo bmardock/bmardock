@@ -57,7 +57,7 @@ Most of the tools I build start from necessity. A gap shows up, something slows 
 
 
 - **[mgmt-boost](https://github.com/bmardock/mgmt-boost)** → AI Slack extension to lighten manager overhead. Built to see if small nudges could replace long status threads.
-- **[leadership‑simulator](https://bmardock.github.io/role-simulator/)** – Pick a style, weigh internal and external factors, and see how each decision’s trade‑offs affect outcomes.
+- **[leadership‑simulator](https://bmardock.github.io/role-simulator/)** → Pick a style, weigh internal and external factors, and see how each decision’s trade‑offs affect outcomes.
 - **[analog-todo](https://github.com/bmardock/analog-todo)** → a paper-inspired task app ("Today / Next / Someday"). Exploring how simple structure changes user behavior.
 - **[dash-cam](https://github.com/bmardock/dash-cam)** → a real-time Nest Cam dashboard. Testing how far live feeds and alerts could be pushed for operations.
 - **[real-time-processing](https://github.com/bmardock/real-time-processing)** → instant sync across POS and e-commerce. Proved how fast systems could stay consistent under load.
