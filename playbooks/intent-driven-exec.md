@@ -9,6 +9,13 @@ What hasn’t scaled is **decision-making**.
 
 Most teams respond by adding structure: specs, PRDs, agile pods, agent hierarchies. That feels safe, but it quietly reintroduces the very overhead AI was supposed to remove.
 
+> **TL;DR**  
+> Intent-Driven Execution is a lightweight way to build with AI where you steer outcomes, not steps.  
+> Instead of heavy specs or “agent pods,” you run tight loops: **Intent → Act → Check → Correct → Continue**.  
+> The system acts shallow by default and goes deep only when ambiguity or risk shows up.  
+> Think of it like an **air traffic controller** for work: keep many paths moving safely, with minimal coordination overhead.
+
+
 **Intent-driven execution** starts from a different place.
 
 Instead of telling the system *how* to work, we continuously steer *what* it’s trying to achieve.
@@ -85,6 +92,9 @@ Just steering.
 
 ---
 
+
+---
+
 ## What makes this different
 
 The system doesn’t reason deeply by default.  
@@ -132,3 +142,79 @@ Intent-driven execution is a way to scale speed **without** scaling confusion, s
 The teams that win won’t be the ones with the most agents or the most structure.
 
 They’ll be the ones who learn how to **steer systems effectively**.
+
+
+
+## How to Pilot This
+
+This is meant to be tested, not debated. Run a 2-week pilot with a small team and a real deliverable.
+
+### Pick the right pilot
+Choose a project that is:
+- meaningful but not mission-critical
+- easy to validate (tests, UI behavior, output quality)
+- likely to evolve (some ambiguity is good)
+
+Avoid compliance-heavy or high-risk systems for the first run.
+
+### Team + roles (small on purpose)
+- 1 engineer (driver)
+- 1 product partner (steering + acceptance)
+- optional: 1 designer (if UI-heavy)
+- optional: 1 reviewer (final sanity)
+
+### Setup (30 minutes)
+Create two files in the repo:
+- `intent.md` — the living intent statement
+- `decisions.md` — short decision snapshots
+
+Recommended structure for `intent.md`:
+- **Goal**
+- **Constraints**
+- **Non-goals**
+- **Priority**
+- **Acceptance**
+
+### Run the loop (daily)
+Operate in tight cycles:
+
+**Intent → Act → Check → Correct → Continue**
+
+Rules of thumb:
+- Start shallow. Small changes, early output.
+- Run real checks (tests, lint, build, UI preview).
+- After each loop, capture:
+  - what changed
+  - what’s confident vs uncertain
+  - the smallest next steering question
+
+### When to “go deep”
+Escalate reasoning only when:
+- tests fail or behavior is unclear
+- large diffs or risky refactors appear
+- multiple approaches compete
+- uncertainty stays high across 2 loops
+
+### Decision snapshots (lightweight memory)
+Only write a decision when something meaningful changes:
+- “We chose X because Y”
+- “We rejected Z because W”
+- “Assumption: A”
+
+Keep it short and append-only.
+
+### What to measure (keep it honest)
+At the end of 2 weeks, review:
+- time to first usable output
+- number of loops to converge
+- rework / reversals
+- how often the team got stuck
+- token / cost (roughly)
+- team sentiment: “more clarity or more chaos?”
+
+### Success looks like
+- faster convergence with fewer meetings
+- earlier detection of wrong paths
+- fewer heavy specs without losing clarity
+- durable decisions captured without ceremony
+
