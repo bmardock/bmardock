@@ -91,8 +91,7 @@ No agent standups.
 Just steering.
 
 ---
-
-
+![Intent-Driven Execution Diagram](../assets/intent.svg)
 ---
 
 ## What makes this different
