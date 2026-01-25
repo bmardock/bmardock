@@ -7,33 +7,36 @@ We can generate code, designs, plans, and prototypes faster than teams can decid
 
 What hasn’t scaled is **decision-making**.
 
-Most teams respond by adding structure: specs, PRDs, agile pods, agent hierarchies. That feels safe, but it quietly reintroduces the very overhead AI was supposed to remove.
+The mistake many teams are making is trying to scale AI work using **human process**: specs, PRDs, agile pods, agent hierarchies. That structure feels safe, but it quietly reintroduces the very overhead AI was supposed to remove.
+
+Intent-Driven Execution starts from a different belief.
+
+> As execution gets cheaper, steering becomes the real work.
+
+---
+
+## TL;DR
 
 > **TL;DR**  
-> Intent-Driven Execution is a lightweight way to build with AI where you steer outcomes, not steps.  
-> Instead of heavy specs or “agent pods,” you run tight loops: **Intent → Act → Check → Correct → Continue**.  
-> The system acts shallow by default and goes deep only when ambiguity or risk shows up.  
-> Think of it like an **air traffic controller** for work: keep many paths moving safely, with minimal coordination overhead.
+> Intent-Driven Execution replaces heavy specs and agent “pods” with tight steering loops.  
+> You act early, correct often, and only go deep when ambiguity or risk shows up.  
+> Think of it like an **air traffic controller for work**: guiding many paths safely without over-coordinating.
 
-
-**Intent-driven execution** starts from a different place.
-
-Instead of telling the system *how* to work, we continuously steer *what* it’s trying to achieve.
-
+<img src="../assets/intent.svg" alt="Intent-Driven Execution diagram" width="820" />
 ---
 
 ## The shift
 
 Traditional workflows try to create clarity **before** work begins.
 
-Intent-driven execution assumes clarity emerges **through** work.
+Intent-Driven Execution assumes clarity is something you **discover through action**, not define upfront.
 
 You act early.  
-You see real output.  
+You look at real output.  
 You correct direction quickly.  
 You repeat until uncertainty drops.
 
-This looks less like agile engineering and more like design iteration.
+This feels less like agile engineering and more like design iteration.
 
 ---
 
@@ -42,7 +45,7 @@ This looks less like agile engineering and more like design iteration.
 Everything starts with **intent**, not a spec.
 
 Intent is a short, living statement of:
-- what we’re trying to do  
+- what you’re trying to achieve  
 - what matters most  
 - what’s explicitly out of scope  
 
@@ -72,7 +75,7 @@ You start with intent:
 
 The system acts quickly. It sketches a simple approach and highlights assumptions it’s making.
 
-You look at it and realize the abstraction is too rigid. You steer:
+You review it and realize the abstraction is too rigid. You steer:
 
 > We’ll want to swap strategies later. Bias toward composability.
 
@@ -91,19 +94,24 @@ No agent standups.
 Just steering.
 
 ---
-![Intent-Driven Execution Diagram](../assets/intent.svg)
----
 
 ## What makes this different
 
-The system doesn’t reason deeply by default.  
-Depth is applied only when ambiguity, risk, or disagreement appears.
+Intent-Driven Execution explicitly rejects the idea that AI work should mirror human org structures.
 
-Every output clearly separates:
+It assumes:
+- coordination is cheap until it isn’t  
+- depth should be earned, not assumed  
+- clarity emerges from interaction, not documentation  
+
+The system does **not** reason deeply by default.  
+It escalates depth only when ambiguity, risk, or disagreement appears.
+
+Every meaningful output separates:
 - what it’s confident about  
 - what it’s guessing  
 
-Decision history is captured lightly, so intent doesn’t disappear, but no one is writing docs for the sake of it.
+Decision history is captured lightly, so intent doesn’t disappear, without turning into process theater.
 
 This is not hands-off automation.  
 It’s **high-frequency collaboration**.
@@ -122,17 +130,16 @@ It is not designed for compliance-heavy or highly regulated workflows.
 
 ---
 
-## Why teams are testing this now
+## Why this matters now
 
-AI has shifted the bottleneck.
+AI has compressed execution time faster than most teams have adapted their decision-making habits.
 
-Building is cheap.  
-Iteration is cheap.  
-Exploration is cheap.
+The result is faster output, but not faster convergence.
 
-Deciding is not.
-
-Intent-driven execution is a way to scale speed **without** scaling confusion, specs, or process.
+Intent-Driven Execution is a way to:
+- keep humans in control as systems move faster  
+- avoid scaling process alongside automation  
+- preserve product judgment under speed  
 
 ---
 
@@ -142,37 +149,37 @@ The teams that win won’t be the ones with the most agents or the most structur
 
 They’ll be the ones who learn how to **steer systems effectively**.
 
+---
 
-
-## How to Pilot This
+## How to pilot this
 
 This is meant to be tested, not debated. Run a 2-week pilot with a small team and a real deliverable.
 
 ### Pick the right pilot
 Choose a project that is:
-- meaningful but not mission-critical
-- easy to validate (tests, UI behavior, output quality)
-- likely to evolve (some ambiguity is good)
+- meaningful but not mission-critical  
+- easy to validate (tests, UI behavior, output quality)  
+- likely to evolve (some ambiguity is good)  
 
 Avoid compliance-heavy or high-risk systems for the first run.
 
 ### Team + roles (small on purpose)
-- 1 engineer (driver)
-- 1 product partner (steering + acceptance)
-- optional: 1 designer (if UI-heavy)
+- 1 engineer (driver)  
+- 1 product partner (steering + acceptance)  
+- optional: 1 designer (if UI-heavy)  
 - optional: 1 reviewer (final sanity)
 
 ### Setup (30 minutes)
 Create two files in the repo:
-- `intent.md` — the living intent statement
-- `decisions.md` — short decision snapshots
+- `intent.md` — the living intent statement  
+- `decisions.md` — short decision snapshots  
 
 Recommended structure for `intent.md`:
-- **Goal**
-- **Constraints**
-- **Non-goals**
-- **Priority**
-- **Acceptance**
+- Goal  
+- Constraints  
+- Non-goals  
+- Priority  
+- Acceptance  
 
 ### Run the loop (daily)
 Operate in tight cycles:
@@ -180,40 +187,39 @@ Operate in tight cycles:
 **Intent → Act → Check → Correct → Continue**
 
 Rules of thumb:
-- Start shallow. Small changes, early output.
-- Run real checks (tests, lint, build, UI preview).
-- After each loop, capture:
-  - what changed
-  - what’s confident vs uncertain
-  - the smallest next steering question
+- start shallow with small changes and early output  
+- run real checks (tests, lint, build, UI preview)  
+- after each loop, capture:
+  - what changed  
+  - what’s confident vs uncertain  
+  - the smallest next steering question  
 
-### When to “go deep”
+### When to go deep
 Escalate reasoning only when:
-- tests fail or behavior is unclear
-- large diffs or risky refactors appear
-- multiple approaches compete
-- uncertainty stays high across 2 loops
+- tests fail or behavior is unclear  
+- large diffs or risky refactors appear  
+- multiple approaches compete  
+- uncertainty stays high across multiple loops  
 
-### Decision snapshots (lightweight memory)
+### Decision snapshots
 Only write a decision when something meaningful changes:
-- “We chose X because Y”
-- “We rejected Z because W”
-- “Assumption: A”
+- “We chose X because Y”  
+- “We rejected Z because W”  
+- “Assumption: A”  
 
 Keep it short and append-only.
 
-### What to measure (keep it honest)
+### What to measure
 At the end of 2 weeks, review:
-- time to first usable output
-- number of loops to converge
-- rework / reversals
-- how often the team got stuck
-- token / cost (roughly)
+- time to first usable output  
+- number of loops to converge  
+- rework or reversals  
+- where the team got stuck  
+- rough token or cost impact  
 - team sentiment: “more clarity or more chaos?”
 
 ### Success looks like
-- faster convergence with fewer meetings
-- earlier detection of wrong paths
-- fewer heavy specs without losing clarity
+- faster convergence with fewer meetings  
+- earlier detection of wrong paths  
+- fewer heavy specs without losing clarity  
 - durable decisions captured without ceremony
-
