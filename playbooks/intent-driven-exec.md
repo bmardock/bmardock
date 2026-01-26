@@ -1,153 +1,177 @@
 # Intent-Driven Execution  
-### A simple way to build with AI without recreating process overhead
+### How to steer AI systems at speed
 
-AI has made execution cheap.
+AI has changed how quickly we can build things.
 
-We can generate code, designs, plans, and prototypes faster than teams can decide what they actually want. Iteration is fast. Exploration is easy.
+We can generate code, designs, plans, and prototypes faster than ever. Trying ideas is cheap. Iteration is instant.
 
-What hasn’t scaled is **decision-making**.
+And yet, many teams feel slower.
 
-The mistake many teams are making is trying to scale AI work using **human process**: specs, PRDs, agile pods, agent hierarchies. That structure feels safe, but it quietly reintroduces the very overhead AI was supposed to remove.
+They plan more.  
+They add structure.  
+They introduce process meant to “keep things under control.”
 
-Intent-Driven Execution starts from a different belief.
+Token usage climbs. Coordination increases.  
+Confidence rises early — then collapses late.
 
-> As execution gets cheaper, steering becomes the real work.
-
----
-
-## TL;DR
-
-> **TL;DR**  
-> Intent-Driven Execution replaces heavy specs and agent “pods” with tight steering loops.  
-> You act early, correct often, and only go deep when ambiguity or risk shows up.  
-> Think of it like an **air traffic controller for work**: guiding many paths safely without over-coordinating.
-
-<img src="../assets/intent.svg" alt="Intent-Driven Execution diagram" width="820" />
----
-
-## The shift
-
-Traditional workflows try to create clarity **before** work begins.
-
-Intent-Driven Execution assumes clarity is something you **discover through action**, not define upfront.
-
-You act early.  
-You look at real output.  
-You correct direction quickly.  
-You repeat until uncertainty drops.
-
-This feels less like agile engineering and more like design iteration.
+Something feels off.
 
 ---
 
-## How it works (without the ceremony)
+## What actually broke
 
-Everything starts with **intent**, not a spec.
+Most of our workflows were designed for a world where execution was expensive.
 
-Intent is a short, living statement of:
-- what you’re trying to achieve  
-- what matters most  
-- what’s explicitly out of scope  
+Writing code took time.  
+Mistakes were costly.  
+Planning reduced waste.
 
-Intent is allowed to change as the team learns.
+AI flipped that.
 
-From there, work runs in a tight loop:
+Execution is now cheap.  
+Exploration is cheap.  
+Correction is cheap.
+
+But we kept the same operating models.
+
+Instead of adapting, we tried to scale AI work using tools built to coordinate **humans**: specs, rituals, handoffs, agent hierarchies. Those tools create the *appearance* of control, but at speed they introduce drag.
+
+The bottleneck quietly moved.
+
+It’s no longer building.  
+It’s steering.
+
+---
+
+## A different way to think about the work
+
+When systems move fast, the problem isn’t how much you can build.
+
+It’s how quickly you can notice you’re heading in the wrong direction — and correct.
+
+That’s not a factory problem.  
+It’s a flight problem.
+
+Planes don’t follow rigid plans once airborne.  
+They make small, continuous corrections.
+
+Most of the time, the pilot barely touches the controls.  
+Only when conditions change does attention deepen.
+
+That’s the mental model.
+
+---
+
+## Intent-Driven Execution
+
+Instead of managing steps, you steer outcomes.
+
+You don’t try to predict everything upfront.  
+You keep intent clear, act quickly, and correct often.
+
+The work runs in a simple loop:
 
 **Intent → Act → Check → Correct → Continue**
 
-The system produces something concrete, checks it against reality, reports confidence and uncertainty, asks for the smallest possible steer, and continues.
+That’s it.
 
-There’s no long planning phase.  
-There’s no rigid handoff.  
-Progress comes from frequent correction, not prediction.
+No ceremony.  
+No orchestration layer.  
+No pretending the system is a team.
 
 ---
 
-## A quick walkthrough
+## What changes when you work this way
 
-Imagine you’re building a pricing rules engine.
+You start shallow.
 
-You start with intent:
+Not because you don’t care about quality — but because shallow action gives you signal faster.
 
-> Support experimentation.  
-> Correctness matters more than performance.  
-> Avoid locking into a single pricing model.
+Most uncertainty isn’t visible until something exists.  
+Acting early shows you where thinking actually matters.
 
-The system acts quickly. It sketches a simple approach and highlights assumptions it’s making.
+As you steer, one of two things happens:
+- uncertainty collapses quickly, or  
+- it concentrates around a specific risk
 
-You review it and realize the abstraction is too rigid. You steer:
+Only then do you slow down.
 
-> We’ll want to swap strategies later. Bias toward composability.
+Depth isn’t removed.  
+It’s **earned**.
 
-Now the system slows down. It reasons more deeply, proposes alternatives, and surfaces tradeoffs.
+---
 
-You choose a direction. It implements. Tests pass. Uncertainty drops.
+## A concrete example
 
-A short decision note is captured:
+Imagine improving checkout on an ecomm site.
 
-> Chose composable rule functions to preserve flexibility.
+You begin with a short intent:
+
+> Reduce confusion during checkout.  
+> Clarity matters more than polish.  
+> Changes must be reversible.
+
+The system produces a small change.
+
+You look at it and realize the assumption behind it won’t scale. You steer:
+
+> Bias toward changes we can undo easily.
+
+Now attention deepens. Tradeoffs are surfaced. You choose.
+
+A brief note is captured:
+> Inline feedback chosen to preserve flow and reversibility.
+
+Then you speed up again.
 
 No PRD.  
-No sprint planning.  
-No agent standups.
-
+No sprint plan.  
 Just steering.
 
 ---
 
-## What makes this different
+## What this replaces — quietly
 
-Intent-Driven Execution explicitly rejects the idea that AI work should mirror human org structures.
+This doesn’t remove judgment or accountability.
 
-It assumes:
-- coordination is cheap until it isn’t  
-- depth should be earned, not assumed  
-- clarity emerges from interaction, not documentation  
+It replaces:
+- upfront certainty with fast feedback  
+- heavy planning with correction  
+- false confidence with visible uncertainty  
 
-The system does **not** reason deeply by default.  
-It escalates depth only when ambiguity, risk, or disagreement appears.
-
-Every meaningful output separates:
-- what it’s confident about  
-- what it’s guessing  
-
-Decision history is captured lightly, so intent doesn’t disappear, without turning into process theater.
-
-This is not hands-off automation.  
-It’s **high-frequency collaboration**.
+Structure still exists.  
+It’s just applied when it’s cheaper.
 
 ---
 
-## When this works best
+## Why this works now
 
-This approach shines when:
-- the problem space is evolving  
-- speed of learning matters more than perfect planning  
-- AI agents are doing meaningful work  
-- you want fewer meetings and faster convergence  
+This approach wouldn’t have worked before.
 
-It is not designed for compliance-heavy or highly regulated workflows.
+When execution was expensive, shallow action was risky.  
+Planning protected teams from costly mistakes.
 
----
+Now, the cost structure is inverted.
 
-## Why this matters now
+Execution is cheap.  
+Depth is expensive.
 
-AI has compressed execution time faster than most teams have adapted their decision-making habits.
-
-The result is faster output, but not faster convergence.
-
-Intent-Driven Execution is a way to:
-- keep humans in control as systems move faster  
-- avoid scaling process alongside automation  
-- preserve product judgment under speed  
+The operating model has to change with it.
 
 ---
 
-## The bet
+## Try it
 
-The teams that win won’t be the ones with the most agents or the most structure.
+Pick a real surface.  
+Write a few lines of intent.  
+Run the loop.
 
-They’ll be the ones who learn how to **steer systems effectively**.
+If uncertainty collapses faster, keep going.  
+If it doesn’t, abandon it.
+
+You’ll know quickly.
+
+That’s the point.
 
 ---
 
