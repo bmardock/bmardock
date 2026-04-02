@@ -17,6 +17,12 @@ Those ingredients make collaboration feel natural. Titles blur. Hats overlap. Ev
 
 The manager's role should be to protect that spark. To block and tackle against bureaucracy, keep the rhythm sustainable, and make sure curiosity lasts longer than one late-night push. When that happens, results follow: fewer dead ends, faster loops from idea to test to decision, and clearer trade-offs when choosing between speed and polish.
 
+That loop still matters, but the constraint has shifted.
+
+Getting from idea to something real is no longer the hard part. You can build and test quickly. The challenge is staying aligned on what actually works once it exists.
+
+That’s where teams tend to slow down now. Not in building, but in deciding, adjusting, and moving forward together.
+
 _Nostalgia for the garage is real, but the point isn't to recreate the past. Tools and pressures will always change. What matters is carrying the spark forward: people leaning in, curious, and proud to put their best foot forward. Playbooks are touchstones that keep that spark alive as everything else evolves._
 
 ---
@@ -39,6 +45,7 @@ When teams work this way, outcomes come naturally. At one company, this approach
 
 The habits above are simple in spirit, but they work best when they're easy to repeat. That's why I've captured them as playbooks: not rigid rules, but lightweight touchstones that help teams keep the spark alive whether they're three people in a room or hundreds spread across time zones.
 
+- **[Intent-Driven Execution](/playbooks/00-intent-driven-exec.md)** → how teams operate when execution is cheap and alignment becomes the bottleneck.
 - **[Vision & Roadmaps](/playbooks/01-vision-roadmaps.md)** → anchoring on the problem and purpose.
 - **[Engineering Pitfalls & Fixes](/playbooks/02-engineering-pitfalls.md)** → patterns that cause slowdowns, and how to avoid them.
 - **[Operating System](/playbooks/03-operating-system.md)** → scaffolding that scales without micromanaging.
@@ -55,7 +62,7 @@ The habits above are simple in spirit, but they work best when they're easy to r
 
 Most of the tools I build start from necessity. A gap shows up, something slows us down, and the quickest way forward is to make something new. That necessity gives me an excuse to explore, learn, and sharpen skills. It's where I chase mastery, test ideas with purpose, and share back with the community.
 
-
+- **[intent-exec-pilot](https://github.com/bmardock/intent-exec-pilot)** → testing a shift from upfront planning to continuous alignment inside existing Agile workflows.
 - **[mgmt-boost](https://github.com/bmardock/mgmt-boost)** → AI Slack extension to lighten manager overhead. Built to see if small nudges could replace long status threads.
 - **[leadership‑simulator](https://bmardock.github.io/role-simulator/)** → Pick a style, weigh internal and external factors, and see how each decision’s trade‑offs affect outcomes.
 - **[analog-todo](https://github.com/bmardock/analog-todo)** → a paper-inspired task app ("Today / Next / Someday"). Exploring how simple structure changes user behavior.
