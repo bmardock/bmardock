@@ -1,249 +1,217 @@
-# Intent-Driven Execution  
-### How to steer AI systems at speed
+# Intent-Driven Execution  (v2)
+## How to work when execution is cheap and direction is expensive
 
-AI has changed how quickly we can build things.
+---
 
-We can generate code, designs, plans, and prototypes faster than ever. Trying ideas is cheap. Iteration is instant.
 
-And yet, many teams feel slower.
+AI removed a major bottleneck in how we build.
 
-They plan more.  
-They add structure.  
-They introduce process meant to “keep things under control.”
+You can now generate working code in minutes and try multiple approaches in the time it used to take to plan one. Getting something into a usable state is no longer the expensive part.
 
-Token usage climbs. Coordination increases.  
-Confidence rises early — then collapses late.
+But removing that constraint didn’t make teams uniformly faster. It exposed a different bottleneck.
 
-Something feels off.
+Not in building.
+
+In deciding what to build and staying aligned as it evolves.
+
+The bottleneck didn’t disappear. It moved.
+
+You can see it in how work actually plays out.
+
+Something gets built quickly. It looks right. The team moves forward.
+
+Then later, it becomes clear the direction needs to change.
+
+At that point, the work slows down.
+
+Not because building is hard, but because adjusting direction is.
+
+You can move fast and still end up far from where you need to be.
+
+The question is why that keeps happening.
 
 ---
 
 ## What actually broke
 
-Most of our workflows were designed for a world where execution was expensive.
+The slowdown comes from how direction is handled.
 
-Writing code took time.  
-Mistakes were costly.  
-Planning reduced waste.
+Once something real exists, it’s normal for the direction to change. You see things you couldn’t see before. Parts that looked right don’t behave the way you expected.
 
-AI flipped that.
+That’s not the problem. That’s how the work actually behaves.
 
-Execution is now cheap.  
-Exploration is cheap.  
-Correction is cheap.
+The problem is what happens next.
 
-But we kept the same operating models.
+Most teams are set up around the idea that direction should already be settled. Plans are defined, work is scoped, and teams align before execution begins.
 
-Instead of adapting, we tried to scale AI work using tools built to coordinate **humans**: specs, rituals, handoffs, agent hierarchies. Those tools create the *appearance* of control, but at speed they introduce drag.
+So when the direction changes, it conflicts with how the system expects work to happen.
 
-The bottleneck quietly moved.
+Now the team isn’t just improving the product. It is pushing against the plan.
 
-It’s no longer building.  
-It’s steering.
+And that changes how the work feels.
 
----
+What should be a normal adjustment starts to look like rework. It has to be explained. It has to be re-aligned. It turns into a discussion about what was already decided instead of what is actually correct now.
 
-## A different way to think about the work
+The further along the work is, the heavier that becomes.
 
-When systems move fast, the problem isn’t how much you can build.
+Execution is cheap. Alignment is not.
 
-It’s how quickly you can notice you’re heading in the wrong direction — and correct.
+So teams slow down.
 
-That’s not a factory problem.  
-It’s a flight problem.
-
-Planes don’t follow rigid plans once airborne.  
-They make small, continuous corrections.
-
-Most of the time, the pilot barely touches the controls.  
-Only when conditions change does attention deepen.
-
-That’s the mental model.
+Not because they can’t build, but because every change has to move through a system that wasn’t designed for it.
 
 ---
 
-## Intent-Driven Execution
+## Why planning can’t prove correctness
 
-Instead of managing steps, you steer outcomes.
+The natural response is to try to get direction right earlier.
 
-You don’t try to predict everything upfront.  
-You keep intent clear, act quickly, and correct often.
+Be more thorough. Think through more edge cases. Define things more clearly upfront.
 
-The work runs in a simple loop:
+But that only works up to a point.
 
-**Intent → Act → Check → Correct → Continue**
+The problem is that you can’t fully evaluate the work until it exists.
 
-That’s it.
+You can define a flow, review it, and agree that it makes sense. On paper, it can look complete and well thought out.
 
-No ceremony.  
-No orchestration layer.  
-No pretending the system is a team.
+Then you build it and use it.
 
----
+That’s when the issues show up.
 
-## What changes when you work this way
+A step is more confusing than expected. The sequence technically works, but it takes more effort than it should. Something feels off, even though nothing is obviously broken.
 
-You start shallow.
+Those problems aren’t mistakes in the plan.
 
-Not because you don’t care about quality — but because shallow action gives you signal faster.
+They are things that only become visible once the work is real.
 
-Most uncertainty isn’t visible until something exists.  
-Acting early shows you where thinking actually matters.
+So trying to get direction perfect upfront doesn’t solve the problem.
 
-As you steer, one of two things happens:
-- uncertainty collapses quickly, or  
-- it concentrates around a specific risk
+It just delays the moment where reality pushes back.
 
-Only then do you slow down.
+You don’t discover correctness by thinking harder.
 
-Depth isn’t removed.  
-It’s **earned**.
+You discover it by interacting with what you built.
 
 ---
 
-## A concrete example
+## What this looks like in practice
 
-Imagine improving checkout on an ecomm site.
+If you can’t fully determine correctness upfront, the way you work has to change.
 
-You begin with a short intent:
+You still need direction. You still need to understand what problem you’re trying to solve and what should be different if you get it right.
 
-> Reduce confusion during checkout.  
-> Clarity matters more than polish.  
-> Changes must be reversible.
+This becomes the reference point the work is measured against, not the document.
 
-The system produces a small change.
+What used to be planning is now closer to steering.
 
-You look at it and realize the assumption behind it won’t scale. You steer:
+But instead of trying to define the full solution ahead of time, you move toward that outcome in steps.
 
-> Bias toward changes we can undo easily.
+You build something just far enough to evaluate it.
 
-Now attention deepens. Tradeoffs are surfaced. You choose.
+Then you run it.
 
-A brief note is captured:
-> Inline feedback chosen to preserve flow and reversibility.
+Not to check if it matches what was planned, but to see if it actually improves the thing you care about.
 
-Then you speed up again.
+Some changes will move things in the right direction. Others won’t.
 
-No PRD.  
-No sprint plan.  
-Just steering.
+Either way, you get signal.
 
----
+From there, you adjust and run it again.
 
-## What this replaces — quietly
+You don’t arrive at the right solution in one pass.
 
-This doesn’t remove judgment or accountability.
+You move toward it.
 
-It replaces:
-- upfront certainty with fast feedback  
-- heavy planning with correction  
-- false confidence with visible uncertainty  
-
-Structure still exists.  
-It’s just applied when it’s cheaper.
+The direction stays the same, but the path becomes clearer through what you learn as you go.
 
 ---
 
-## Why this works now
+## The pattern behind the work
 
-This approach wouldn’t have worked before.
+If you look at how this actually plays out, there’s a consistent pattern.
 
-When execution was expensive, shallow action was risky.  
-Planning protected teams from costly mistakes.
+You start by looking at what is happening now and where it falls short. From that, you define what you’re trying to improve. You make a change, run it, and see if it actually moved things in the right direction. Based on that, you decide what to do next.
 
-Now, the cost structure is inverted.
+Then you do it again.
 
-Execution is cheap.  
-Depth is expensive.
+That sequence keeps repeating as the work evolves.
 
-The operating model has to change with it.
+You can describe it simply:
 
----
+**Discovery → Intent → Iterate → Validate → Decide**
 
-## Try it
+The labels aren’t the point. They just make the pattern easier to see.
 
-Pick a real surface.  
-Write a few lines of intent.  
-Run the loop.
+What matters is that each step leads directly to the next. You are not separating thinking from doing. Each pass updates both your understanding of the problem and the solution at the same time.
 
-If uncertainty collapses faster, keep going.  
-If it doesn’t, abandon it.
-
-You’ll know quickly.
-
-That’s the point.
+This is what allows direction to stay aligned while the work moves forward.
 
 ---
 
-## How to pilot this
+## How to run the loop
 
-This is meant to be tested, not debated. Run a 2-week pilot with a small team and a real deliverable.
+Each part of the loop is simple. The value comes from how they connect.
 
-### Pick the right pilot
-Choose a project that is:
-- meaningful but not mission-critical  
-- easy to validate (tests, UI behavior, output quality)  
-- likely to evolve (some ambiguity is good)  
+**Discovery** is understanding the current state and where it falls short.
 
-Avoid compliance-heavy or high-risk systems for the first run.
+Sometimes that means running what already exists and noticing where it is confusing, slow, or harder to use than it should be. Other times, like a new feature, it means walking through the expected flow and identifying where uncertainty or friction is likely to show up.
 
-### Team + roles (small on purpose)
-- 1 engineer (driver)  
-- 1 product partner (steering + acceptance)  
-- optional: 1 designer (if UI-heavy)  
-- optional: 1 reviewer (final sanity)
+**Intent** is defining what you are trying to improve.
 
-### Setup (30 minutes)
-Create two files in the repo:
-- `intent.md` — the living intent statement  
-- `decisions.md` — short decision snapshots  
+Not a full solution, just a clear direction. It should be specific enough that you can tell whether the change worked.
 
-Recommended structure for `intent.md`:
-- Goal  
-- Constraints  
-- Non-goals  
-- Priority  
-- Acceptance  
+**Iterate** is making a change in that direction.
 
-### Run the loop (daily)
-Operate in tight cycles:
+The goal isn’t completeness. It is to create something real that you can evaluate.
 
-**Intent → Act → Check → Correct → Continue**
+**Validate** is running that change and seeing what actually happens.
 
-Rules of thumb:
-- start shallow with small changes and early output  
-- run real checks (tests, lint, build, UI preview)  
-- after each loop, capture:
-  - what changed  
-  - what’s confident vs uncertain  
-  - the smallest next steering question  
+You are not checking if it matches what was planned. You are checking if it improved the outcome you care about.
 
-### When to go deep
-Escalate reasoning only when:
-- tests fail or behavior is unclear  
-- large diffs or risky refactors appear  
-- multiple approaches compete  
-- uncertainty stays high across multiple loops  
+In practice, this comes down to a few simple signals:
 
-### Decision snapshots
-Only write a decision when something meaningful changes:
-- “We chose X because Y”  
-- “We rejected Z because W”  
-- “Assumption: A”  
+- Did the user complete the action?  
+- Was it easier or faster?  
+- Where did they hesitate or get confused?  
 
-Keep it short and append-only.
+**Decide** is choosing what to do next based on that result.
 
-### What to measure
-At the end of 2 weeks, review:
-- time to first usable output  
-- number of loops to converge  
-- rework or reversals  
-- where the team got stuck  
-- rough token or cost impact  
-- team sentiment: “more clarity or more chaos?”
+There are only three real options:
 
-### Success looks like
-- faster convergence with fewer meetings  
-- earlier detection of wrong paths  
-- fewer heavy specs without losing clarity  
-- durable decisions captured without ceremony
+- Keep going → it improved things, continue  
+- Adjust → partial improvement or new friction, refine  
+- Step back → the direction is off, return to discovery  
+
+Then you run the loop again.
+
+---
+
+## What changes now
+
+AI made execution fast.
+
+The bottleneck didn’t disappear. It moved.
+
+Most teams didn’t change how they work.
+
+They are still trying to get direction right upfront, then execute against it.
+
+That worked when building was the constraint. It doesn’t work when you can build quickly but only understand the result after you see it.
+
+So teams move fast at first, then slow down later, once it becomes clear the work needs to change.
+
+The time isn’t lost in building.
+
+It is lost in rework, misalignment, and the effort of reconciling the difference.
+
+The bottleneck isn’t execution anymore.
+
+It is staying aligned with what actually works.
+
+AI removed the cost of building. It didn’t remove the need to stay aligned.
+
+The teams that benefit from that speed are the ones that can adjust just as quickly.
+
+The goal isn’t to define the right solution upfront.
+
+It is to move toward the right outcome and keep correcting as you go.
