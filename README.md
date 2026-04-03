@@ -45,7 +45,7 @@ When teams work this way, outcomes come naturally. At one company, this approach
 
 The habits above are simple in spirit, but they work best when they're easy to repeat. That's why I've captured them as playbooks: not rigid rules, but lightweight touchstones that help teams keep the spark alive whether they're three people in a room or hundreds spread across time zones.
 
-- **[Intent-Driven Execution](/playbooks/intent-driven-exec.md)** → how teams operate when execution is cheap and alignment becomes the bottleneck.
+- **[Intent-Driven Execution](/playbooks/intent-driven-exec.md)** → how teams operate when execution is cheap and alignment is the bottleneck.
 - **[Vision & Roadmaps](/playbooks/01-vision-roadmaps.md)** → anchoring on the problem and purpose.
 - **[Engineering Pitfalls & Fixes](/playbooks/02-engineering-pitfalls.md)** → patterns that cause slowdowns, and how to avoid them.
 - **[Operating System](/playbooks/03-operating-system.md)** → scaffolding that scales without micromanaging.
