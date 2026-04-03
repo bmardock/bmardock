@@ -62,7 +62,7 @@ The habits above are simple in spirit, but they work best when they're easy to r
 
 Most of the tools I build start from necessity. A gap shows up, something slows us down, and the quickest way forward is to make something new. That necessity gives me an excuse to explore, learn, and sharpen skills. It's where I chase mastery, test ideas with purpose, and share back with the community.
 
-- **[intent-exec-pilot](/playbooks/intent-exec-pilot.md)** → testing a shift from upfront planning to continuous alignment inside existing Agile workflows.
+- **[intent-exec-pilot](/playbooks/Intent-Driven-Execution-Pilot.md)** → testing a shift from upfront planning to continuous alignment inside existing Agile workflows.
 - **[mgmt-boost](https://github.com/bmardock/mgmt-boost)** → AI Slack extension to lighten manager overhead. Built to see if small nudges could replace long status threads.
 - **[leadership‑simulator](https://bmardock.github.io/role-simulator/)** → Pick a style, weigh internal and external factors, and see how each decision’s trade‑offs affect outcomes.
 - **[analog-todo](https://github.com/bmardock/analog-todo)** → a paper-inspired task app ("Today / Next / Someday"). Exploring how simple structure changes user behavior.
