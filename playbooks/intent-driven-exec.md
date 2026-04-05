@@ -184,6 +184,7 @@ There are only three real options:
 
 Then you run the loop again.
 
+[Run a Pilot](https://github.com/bmardock/bmardock/blob/main/playbooks/Intent-Driven-Execution-Pilot.md)
 ---
 
 ## What changes now
