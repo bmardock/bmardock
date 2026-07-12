@@ -44,6 +44,12 @@ Most team "best practices" are either fluffy inspiration with no teeth, or rigid
 
 **[Sprint Planning & Retros](./07-sprint-planning-retros.md)** - Turn planning meetings from homework into energizing sessions that build momentum and actually improve how you work.
 
+### **Field Notes: Building in the AI Era**
+
+**[Intent-Driven Execution](./intent-driven-exec.md)** - When building is cheap, alignment is the bottleneck. Replace heavyweight planning with continuous intent, breadcrumbs over blueprints.
+
+**[Claude Code, Month One](./claude-code-month-1.md)** - A thirty-day working retro: 193 PRs on a solo-built app, the repo-as-memory patterns that made it hold, and where the surface ends.
+
 ---
 
 ## How to Use These
